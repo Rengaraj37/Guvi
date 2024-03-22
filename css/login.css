@@ -1,0 +1,45 @@
+body*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.btn-custom{
+    background-color: purple;
+    border: none;
+    color: #fff;
+ }
+
+ .cont{
+    justify-content: center;
+    padding-left: 450px;
+ }
+
+ .logwel{
+    flex: 0 0 66.66667%; 
+    padding: 1rem; 
+    width: 50%; 
+}
+
+.input_box{
+        padding: 10px;
+        box-shadow: none; 
+        border-radius: 50px; 
+}
+
+.container{
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ 
+ 
+ @media screen  and (max-width:996px) {
+    
+.logwel{
+       min-width: 100vw;
+    }
+ }
